@@ -11,14 +11,14 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos escuro e jaqueta preta, sem barba e fundo mesclado das cores roxo e azul."
+      "Foto de Mathias Sammer sorrindo, usando camisa preta, com barba e fundo com árvores."
     )
   } else {
     // se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
+      "Foto de Mathias Sammer sorrindo, usando camisa preta, com barba e fundo céu com nuvens."
     )
   }
 }
